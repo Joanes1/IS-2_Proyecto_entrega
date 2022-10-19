@@ -1,0 +1,53 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-13 13:22:46 #1 store] 
+Database 'C:\Users\kegia\git\IS-2_Proyecto_entrega\Bets21\src\main\resources\bets.temp' has been recovered (tr. 74-75)
+
+[2022-10-13 13:22:46 #2 store] 
+Database 'C:\Users\kegia\git\IS-2_Proyecto_entrega\Bets21\src\main\resources\bets.temp' is opened by 11972@kimi
+
+[2022-10-13 13:22:47 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-13 13:22:47 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-13 13:22:47 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-13 13:22:47 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-13 13:22:47 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-13 13:22:47 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-13 13:22:47 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-13 13:22:47 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-13 13:22:47 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-13 13:22:47 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-13 13:22:47 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-13 13:22:47 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-13 13:22:47 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-13 13:22:47 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-13 13:22:47 #17 type] 
+Type domain.Admin is not enhanced.
+
