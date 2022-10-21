@@ -122,8 +122,7 @@ public class GertaeraEzabatuMockIntTest {
 		ev1.setSport(sp1);
 
 		Registered reg1 = new Registered("k", "123", 1234);
-		Question q1;
-		q1 = ev1.addQuestion("Emaitza?", 1);
+		Question q1 = ev1.addQuestion("Emaitza?", 1);
 		Quote quote1 = q1.addQuote(1.3, "1", q1);
 		ApustuAnitza apA1 = new ApustuAnitza(reg1, 5.0);
 		Apustua ap1 = new Apustua(apA1, quote1);

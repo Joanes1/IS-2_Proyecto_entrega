@@ -4,13 +4,26 @@ import static org.junit.Assert.assertThrows;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Vector;
 
 import org.junit.Test;
 
 import configuration.UtilDate;
 import dataAccess.DataAccess;
+import dataAccess.DiruaSartuParameter;
+import domain.ApustuAnitza;
+import domain.Apustua;
 import domain.Event;
+import domain.KirolEstatistikak;
+import domain.Question;
+import domain.Quote;
+import domain.Registered;
+import domain.Sport;
 import domain.Team;
+import domain.User;
+import exceptions.ApustuaAlreadyExist;
+import exceptions.QuestionAlreadyExist;
+import exceptions.QuoteAlreadyExist;
 
 public class GertaeraEzabatuDAB {
 
@@ -25,7 +38,7 @@ public class GertaeraEzabatuDAB {
 	Calendar today = Calendar.getInstance();
 	int month = today.get(Calendar.MONTH);
 	int year = today.get(Calendar.YEAR);
-	private Date date;
+	private Date date = hasieratuDate();
 
 	@Test // evento null
 	public void test1() {
@@ -34,24 +47,28 @@ public class GertaeraEzabatuDAB {
 
 	@Test // evento existente en la BD
 	public void test2() {
-		ev = sut.getEventsAll().get(1);
+		ev = testDA.hasieratuEventDB(date);
 		emaitza = sut.gertaeraEzabatu(ev);
 		assertEquals(emaitza, true);
 	}
 
 	@Test // evento no existente en la BD
 	public void test3() {
-		Team team1 = new Team("Atletico");
-		Team team2 = new Team("Federer");
+		ev = new Event(1000, "Team1-Team2", date, new Team("Team1"), new Team("Team2"));
+		assertThrows(Exception.class, () -> sut.gertaeraEzabatu(ev));
+		// gertaeraEzabatu metodoan ez da errorea tratatzen gertaera DBan ez dagoenean
+	}
+
+	private Date hasieratuDate() {
 		month += 1;
 		if (month == 12) {
 			month = 0;
 			year += 1;
 		}
-		date = UtilDate.newDate(year + 30, month, 17);
-		ev = new Event(1, "Atletico-Federer", date, team1, team2);;
-		emaitza = sut.gertaeraEzabatu(ev);
-		assertEquals(emaitza, false);
-	}
 
+		year += 100; // urte berezia DBkoengandik bereizteko
+
+		date = UtilDate.newDate(year, month, 1);
+		return date;
+	}
 }
