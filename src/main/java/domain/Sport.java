@@ -14,23 +14,23 @@ import javax.xml.bind.annotation.XmlID;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @Entity
-public class Sport implements Serializable{
+public class Sport implements Serializable {
 	@XmlID
-	@Id 
+	@Id
 	private String izena;
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	private Vector<Event> events=new Vector<Event>();
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	private Vector<KirolEstatistikak> sportEstatistikak=new Vector<KirolEstatistikak>();
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	private Vector<Event> events = new Vector<Event>();
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	private Vector<KirolEstatistikak> sportEstatistikak = new Vector<KirolEstatistikak>();
 	private Integer apustuKantitatea;
-	
+
 	public Sport() {
 		super();
 	}
-	
+
 	public Sport(String izena) {
-		this.izena=izena;
-		this.apustuKantitatea=0;
+		this.izena = izena;
+		this.apustuKantitatea = 0;
 	}
 
 	public String getIzena() {
@@ -56,19 +56,19 @@ public class Sport implements Serializable{
 	public void setApustuKantitatea(Integer apustuKantitatea) {
 		this.apustuKantitatea = apustuKantitatea;
 	}
-	
+
 	public void eguneratuApustuKantitatea() {
-		this.apustuKantitatea=this.apustuKantitatea+1;
+		this.apustuKantitatea = this.apustuKantitatea + 1;
 	}
-	
+
 	public void addEvent(Event ev) {
 		this.events.add(ev);
 	}
-	
+
 	public void addKirolEstatistikak(KirolEstatistikak ke) {
 		this.sportEstatistikak.add(ke);
 	}
-	
+
 	public Vector<KirolEstatistikak> getSportEstatistikak() {
 		return sportEstatistikak;
 	}
@@ -81,18 +81,20 @@ public class Sport implements Serializable{
 	public String toString() {
 		return this.izena;
 	}
-	
+
 	@Override
 	public boolean equals(Object o) {
-		Sport sp = (Sport) o;
-		if(sp==null) {
+		if (o == null) {
 			return false;
 		}
+		if (this.getClass() != o.getClass())
+			return false;
+		Sport sp = (Sport) o;
 		return this.izena.equals(sp.getIzena());
 	}
-	
+
 	@Override
-	  public int hashCode() {
-			return this.izena.hashCode();
-	  }
+	public int hashCode() {
+		return this.izena.hashCode();
+	}
 }
