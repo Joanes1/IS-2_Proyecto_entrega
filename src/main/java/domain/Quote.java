@@ -117,5 +117,10 @@ public class Quote implements Serializable{
 		return this.getQuoteNumber()==q.getQuoteNumber();
 	}
 	
+	@Override
+	public int hashCode() {
+		return this.quoteNumber.hashCode();
+	}
+	
 	
 }
