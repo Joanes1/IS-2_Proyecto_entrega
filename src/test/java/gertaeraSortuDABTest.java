@@ -2,10 +2,12 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
+import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Random;
 import java.util.Vector;
 
 import org.junit.Before;
@@ -50,7 +52,14 @@ public class gertaeraSortuDABTest {
 	public void test1() {
 
 		try {
-			
+			byte[] array = new byte[7]; // length is bounded by 7
+		    new Random().nextBytes(array);
+		    String generatedString1 = new String(array, Charset.forName("UTF-8"));
+		    byte[] array2 = new byte[7]; // length is bounded by 7
+		    new Random().nextBytes(array2);
+		    String generatedString2 = new String(array, Charset.forName("UTF-8"));
+		    
+			String desc = generatedString1+"-"+generatedString2;
 			boolean emaitza = sut.gertaerakSortu(desc, fecha, dep);
 
 			Vector<Event> eventos = sut.getEvents(fecha);
@@ -119,18 +128,7 @@ public class gertaeraSortuDABTest {
 
 			sut.gertaerakSortu(desc, fecha, dep);
 
-			Vector<Event> ebentos = sut.getEvents(fecha);
-			boolean a = false;
-			Event ebento = null;
-			int i = 0;
-//			while (!a && i < ebentos.size()) {
-//				if (ebentos.get(i).getDescription() == desc) {
-//					ebento = ebentos.get(i);
-//					a = true;
-//				}
-//				i++;
-//			}
-			sut.gertaeraEzabatu(ebento);
+
 		} catch (Exception e) {
 			b = false;
 

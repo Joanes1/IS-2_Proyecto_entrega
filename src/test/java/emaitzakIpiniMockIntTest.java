@@ -34,16 +34,16 @@ public class emaitzakIpiniMockIntTest {
 	
 
 	
-	@Test
-	public void test1(){
-		Event ev = hasieratuEventInDB();
-		try {
-			Mockito.doThrow(new EventNotFinished()).when(dataAccess).EmaitzakIpini(ev.getQuestions().get(0).getQuotes().get(0));
-		}catch(Exception e ) {
-			assertTrue(true);
-		}
-		
-	}
+//	@Test
+//	public void test1(){
+//		Event ev = hasieratuEventInDB();
+//		try {
+//			Mockito.doThrow(new EventNotFinished()).when(dataAccess).EmaitzakIpini(ev.getQuestions().get(0).getQuotes().get(0));
+//		}catch(Exception e ) {
+//			assertTrue(true);
+//		}
+//		
+//	}
 	
 //	@Test
 //	public void test2() {

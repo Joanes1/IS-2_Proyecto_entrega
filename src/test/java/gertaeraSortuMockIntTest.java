@@ -38,27 +38,17 @@ public class gertaeraSortuMockIntTest {
 	
 //
 //	@InjectMocks
-	
-//
-
 	BLFacade sut = new BLFacadeImplementation(dataAccess);
-//
 
-	private Event ev;
 //
 
 	private Team t1;
 	private Team t2;
-	
+	private Event ev;
 	private String dep;
-//
-
 	private Date fecha;
-//
-
 	private String desc;
 //
-//	
 	@Before
 	public void initialize() {
 		t1 = new Team("Athletic");
@@ -79,7 +69,8 @@ public class gertaeraSortuMockIntTest {
 	public void test1() {
 
 		try {
-			Mockito.doReturn(true).when(dataAccess).gertaerakSortu(desc, fecha, dep);
+			String desc = "Paco-Alejandro";
+			Mockito.when(dataAccess.gertaerakSortu(desc, fecha, dep)).thenReturn(true);
 			boolean emaitza = sut.gertaerakSortu(desc, fecha, dep);
 
 			Vector<Event> eventos = sut.getEvents(fecha);
@@ -146,7 +137,7 @@ public class gertaeraSortuMockIntTest {
 		try {
 			String dep = "Futbol";
 			String desc = "Levante contra PSG";
-			Mockito.doReturn(false).when(dataAccess).gertaerakSortu(desc, fecha, t1.getIzena());
+			Mockito.when(dataAccess.gertaerakSortu(desc, fecha, dep)).thenReturn(false);
 			b=sut.gertaerakSortu(desc, fecha, dep);
 
 					

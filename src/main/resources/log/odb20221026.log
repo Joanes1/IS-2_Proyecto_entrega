@@ -1,0 +1,371 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:10:56 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 92-108)
+
+[2022-10-26 23:10:56 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 19292@DESKTOP-7LI579A
+
+[2022-10-26 23:10:56 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:10:56 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:10:56 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:10:56 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:10:56 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:10:56 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:10:56 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:10:56 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:10:56 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:10:56 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:10:56 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:10:56 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:10:56 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:10:56 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:10:56 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:12:57 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 109-126)
+
+[2022-10-26 23:12:57 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 7748@DESKTOP-7LI579A
+
+[2022-10-26 23:12:57 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:12:57 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:12:57 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:12:57 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:12:57 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:12:57 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:12:57 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:12:57 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:12:57 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:12:57 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:12:57 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:12:57 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:12:57 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:12:57 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:12:57 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:19:10 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 127-146)
+
+[2022-10-26 23:19:10 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 25304@DESKTOP-7LI579A
+
+[2022-10-26 23:19:10 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:19:10 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:19:10 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:19:10 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:19:10 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:19:10 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:19:10 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:19:10 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:19:10 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:19:10 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:19:10 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:19:10 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:19:10 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:19:10 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:19:10 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:25:26 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 147-163)
+
+[2022-10-26 23:25:26 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 14036@DESKTOP-7LI579A
+
+[2022-10-26 23:25:26 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:25:26 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:25:26 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:25:26 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:25:26 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:25:26 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:25:26 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:25:26 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:25:26 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:25:26 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:25:26 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:25:26 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:25:26 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:25:26 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:25:26 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:28:10 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 164-180)
+
+[2022-10-26 23:28:10 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 29408@DESKTOP-7LI579A
+
+[2022-10-26 23:28:10 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:28:10 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:28:10 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:28:10 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:28:10 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:28:10 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:28:10 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:28:10 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:28:10 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:28:10 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:28:10 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:28:10 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:28:10 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:28:10 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:28:10 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:29:24 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 181-200)
+
+[2022-10-26 23:29:24 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 13764@DESKTOP-7LI579A
+
+[2022-10-26 23:29:24 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:29:24 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:29:24 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:29:24 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:29:24 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:29:24 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:29:24 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:29:24 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:29:24 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:29:24 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:29:24 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:29:24 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:29:24 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:29:24 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:29:24 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-26 23:32:48 #1 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' has been recovered (tr. 201-217)
+
+[2022-10-26 23:32:49 #2 store] 
+Database 'C:\Users\Eneko Larruskain\Documents\GitHub\IS-2_Proyecto_entrega\src\main\resources\bets.temp' is opened by 25088@DESKTOP-7LI579A
+
+[2022-10-26 23:32:49 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-26 23:32:49 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-26 23:32:49 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-26 23:32:49 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-26 23:32:49 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-26 23:32:49 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-26 23:32:49 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-26 23:32:49 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-26 23:32:49 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-26 23:32:49 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-26 23:32:49 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-26 23:32:49 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-26 23:32:49 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-26 23:32:49 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-26 23:32:49 #17 type] 
+Type domain.Admin is not enhanced.
+
