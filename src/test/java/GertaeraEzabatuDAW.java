@@ -51,7 +51,7 @@ public class GertaeraEzabatuDAW {
 //		sut.gertaerakSortu("Atletico-Betis", date, "Futbol");
 //		ev = sut.getEvents(date).get(0);
 	}
-
+//ALDAKETAK
 	@Test // evento sin questions
 	public void test1() {
 		try {
