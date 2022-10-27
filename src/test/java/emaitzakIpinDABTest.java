@@ -21,7 +21,7 @@ public class emaitzakIpinDABTest {
 static DataAccess sut = new DataAccess();
 
 static TestDataAccess testDA = new TestDataAccess();
-	
+	//
 	private Event evento1;
 	private Question q1;
 	
