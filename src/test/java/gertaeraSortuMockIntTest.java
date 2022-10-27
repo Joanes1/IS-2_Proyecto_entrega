@@ -31,7 +31,7 @@ import domain.Event;
 import domain.Team;
 //
 
-
+//
 @RunWith(MockitoJUnitRunner.class)
 public class gertaeraSortuMockIntTest {
 	DataAccess dataAccess = Mockito.mock(DataAccess.class);
