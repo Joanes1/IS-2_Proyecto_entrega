@@ -43,7 +43,7 @@ static TestDataAccess testDA = new TestDataAccess();
 //		q2 =  evento2.getQuestions().get(0);		
 //		quote2 = q2.getQuotes().get(0);	
 //	}
-	
+	//
 	@Test
 	public void test1() {
 		Quote q = null;
