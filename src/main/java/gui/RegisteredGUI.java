@@ -113,7 +113,7 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getBtnNewButton());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
-			jContentPane.add(btnWindw());
+			jContentPane.add(btnWindow());
 		}
 		return jContentPane;
 	}
@@ -319,7 +319,7 @@ public class RegisteredGUI extends JFrame {
 //		return jButtonQueryQueries;
 //	}
 	
-	private JButton btnWindw() {
+	private JButton btnWindow() {
 		if (jButtonWindow == null) {
 			jButtonWindow = new JButton();
 			jButtonWindow.setText("Bets Table");
