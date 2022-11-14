@@ -53,6 +53,7 @@ public class RegisteredGUI extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnRank;
 	private JButton btnDestacados;
+	private JButton jButtonWindow;
 	
 	/**
 	 * This is the default constructor
@@ -112,6 +113,7 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getBtnNewButton());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
+			jContentPane.add(btnWindw());
 		}
 		return jContentPane;
 	}
@@ -290,6 +292,50 @@ public class RegisteredGUI extends JFrame {
 			btnDestacados.setBounds(327, 391, 299, 68);
 		}
 		return btnDestacados;
+	}
+	
+	
+//	/**
+//	 * This method initializes boton2
+//	 * 
+//	 * @return javax.swing.JButton
+//	 */
+//	private JButton btnWindow() {
+//		if (jButtonQueryQueries == null) {
+//			btnWindow = new JButton();
+//			btnWindow.setText("UserBets");
+//			btnWindow.setOpaque(true);
+//			btnWindow.setForeground(Color.DARK_GRAY);
+//			btnWindow.setFont(new Font("Tahoma", Font.PLAIN, 16));
+//			btnWindow.setBackground(Color.PINK);
+//			btnWindow.setBounds(10, 484, 282, 68);
+//			btnWindow.addActionListener(new java.awt.event.ActionListener() {
+//				public void actionPerformed(java.awt.event.ActionEvent e) {
+//					JFrame a = new WindowTable(user);	//FindQuestionsGUI
+//					a.setVisible(true);
+//				}
+//			});
+//		}
+//		return jButtonQueryQueries;
+//	}
+	
+	private JButton btnWindw() {
+		if (jButtonWindow == null) {
+			jButtonWindow = new JButton();
+			jButtonWindow.setText("Bets Table");
+			jButtonWindow.setOpaque(true);
+			jButtonWindow.setForeground(Color.DARK_GRAY);
+			jButtonWindow.setFont(new Font("Tahoma", Font.PLAIN, 16));
+			jButtonWindow.setBackground(Color.PINK);
+			jButtonWindow.setBounds(10, 485, 282, 68);
+			jButtonWindow.addActionListener(new ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					JFrame a = new WindowTable(user);
+					a.setVisible(true);
+				}
+			});
+		}
+		return jButtonWindow;
 	}
 } // @jve:decl-index=0:visual-constraint="0,0"
 
