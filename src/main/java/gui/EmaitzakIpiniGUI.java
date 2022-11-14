@@ -31,6 +31,8 @@ import domain.Question;
 import domain.Quote;
 import domain.User;
 import exceptions.EventNotFinished;
+import iterator.ExtendedIterator;
+
 import javax.swing.SwingConstants;
 
 public class EmaitzakIpiniGUI extends JFrame{
@@ -247,7 +249,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 						
 						if (events.isEmpty()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
@@ -261,8 +263,8 @@ public class EmaitzakIpiniGUI extends JFrame{
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events) {
-							modelEvents.addElement(ev);
+						while(events.hasNext()) {
+							modelEvents.addElement(events.next());
 						}
 						jComboBoxEvents.repaint();
 						

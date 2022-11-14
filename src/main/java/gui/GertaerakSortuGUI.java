@@ -30,6 +30,7 @@ import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import exceptions.EventFinished;
+import iterator.ExtendedIterator;
 
 public class GertaerakSortuGUI extends JFrame{
 	
@@ -210,7 +211,7 @@ public class GertaerakSortuGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
 						if (events.isEmpty())
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
@@ -221,8 +222,8 @@ public class GertaerakSortuGUI extends JFrame{
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
-							modelEvents.addElement(ev);
+						while(events.hasNext())
+							modelEvents.addElement(events.next());
 							jComboBoxEvents.repaint();
 
 					} catch (Exception e1) {
