@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
+import adapter.UserAdapter;
 import domain.User;
 
 public class WindowTable extends JFrame {
@@ -14,7 +15,7 @@ public class WindowTable extends JFrame {
 	private JTable tabla;
 
 	public WindowTable(User user) {
-		super("Apuestas	realizadas	por	" + user.getNombreUsuario() + ":");
+		super("Apuestas	realizadas	por	" + user.getUsername() + ":");
 		this.setBounds(100, 100, 700, 200);
 		this.user = user;
 		UserAdapter adapt = new UserAdapter(user);
